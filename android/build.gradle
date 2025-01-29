@@ -41,10 +41,6 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
-    kotlinOptions {
-        jvmTarget = "17"
-    }
-
     if (project.android.hasProperty("namespace")) {
         namespace 'flutter.plugins.vibrate'
     }
